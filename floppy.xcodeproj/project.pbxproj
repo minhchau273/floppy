@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2B99E061BBABE680062E788 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B99E051BBABE680062E788 /* AppDelegate.swift */; };
+		E2B99E081BBABE680062E788 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B99E071BBABE680062E788 /* GameViewController.swift */; };
+		E2B99E0B1BBABE680062E788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B99E091BBABE680062E788 /* Main.storyboard */; };
+		E2B99E0D1BBABE680062E788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2B99E0C1BBABE680062E788 /* Assets.xcassets */; };
+		E2B99E101BBABE680062E788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2B99E0E1BBABE680062E788 /* LaunchScreen.storyboard */; };
+		E2B99E1B1BBABE680062E788 /* floppyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B99E1A1BBABE680062E788 /* floppyTests.swift */; };
+		E2B99E261BBABE680062E788 /* floppyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B99E251BBABE680062E788 /* floppyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2B99E171BBABE680062E788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B99DFA1BBABE680062E788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B99E011BBABE680062E788;
+			remoteInfo = floppy;
+		};
+		E2B99E221BBABE680062E788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2B99DFA1BBABE680062E788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2B99E011BBABE680062E788;
+			remoteInfo = floppy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E2B99E021BBABE680062E788 /* floppy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = floppy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B99E051BBABE680062E788 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2B99E071BBABE680062E788 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E2B99E0A1BBABE680062E788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2B99E0C1BBABE680062E788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E2B99E0F1BBABE680062E788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E2B99E111BBABE680062E788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B99E161BBABE680062E788 /* floppyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = floppyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B99E1A1BBABE680062E788 /* floppyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floppyTests.swift; sourceTree = "<group>"; };
+		E2B99E1C1BBABE680062E788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2B99E211BBABE680062E788 /* floppyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = floppyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B99E251BBABE680062E788 /* floppyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = floppyUITests.swift; sourceTree = "<group>"; };
+		E2B99E271BBABE680062E788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2B99DFF1BBABE680062E788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B99E131BBABE680062E788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B99E1E1BBABE680062E788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2B99DF91BBABE680062E788 = {
+			isa = PBXGroup;
+			children = (
+				E2B99E041BBABE680062E788 /* floppy */,
+				E2B99E191BBABE680062E788 /* floppyTests */,
+				E2B99E241BBABE680062E788 /* floppyUITests */,
+				E2B99E031BBABE680062E788 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B99E031BBABE680062E788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B99E021BBABE680062E788 /* floppy.app */,
+				E2B99E161BBABE680062E788 /* floppyTests.xctest */,
+				E2B99E211BBABE680062E788 /* floppyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B99E041BBABE680062E788 /* floppy */ = {
+			isa = PBXGroup;
+			children = (
+				E2B99E051BBABE680062E788 /* AppDelegate.swift */,
+				E2B99E071BBABE680062E788 /* GameViewController.swift */,
+				E2B99E091BBABE680062E788 /* Main.storyboard */,
+				E2B99E0C1BBABE680062E788 /* Assets.xcassets */,
+				E2B99E0E1BBABE680062E788 /* LaunchScreen.storyboard */,
+				E2B99E111BBABE680062E788 /* Info.plist */,
+			);
+			path = floppy;
+			sourceTree = "<group>";
+		};
+		E2B99E191BBABE680062E788 /* floppyTests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B99E1A1BBABE680062E788 /* floppyTests.swift */,
+				E2B99E1C1BBABE680062E788 /* Info.plist */,
+			);
+			path = floppyTests;
+			sourceTree = "<group>";
+		};
+		E2B99E241BBABE680062E788 /* floppyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E2B99E251BBABE680062E788 /* floppyUITests.swift */,
+				E2B99E271BBABE680062E788 /* Info.plist */,
+			);
+			path = floppyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2B99E011BBABE680062E788 /* floppy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B99E2A1BBABE680062E788 /* Build configuration list for PBXNativeTarget "floppy" */;
+			buildPhases = (
+				E2B99DFE1BBABE680062E788 /* Sources */,
+				E2B99DFF1BBABE680062E788 /* Frameworks */,
+				E2B99E001BBABE680062E788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = floppy;
+			productName = floppy;
+			productReference = E2B99E021BBABE680062E788 /* floppy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2B99E151BBABE680062E788 /* floppyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B99E2D1BBABE680062E788 /* Build configuration list for PBXNativeTarget "floppyTests" */;
+			buildPhases = (
+				E2B99E121BBABE680062E788 /* Sources */,
+				E2B99E131BBABE680062E788 /* Frameworks */,
+				E2B99E141BBABE680062E788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B99E181BBABE680062E788 /* PBXTargetDependency */,
+			);
+			name = floppyTests;
+			productName = floppyTests;
+			productReference = E2B99E161BBABE680062E788 /* floppyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E2B99E201BBABE680062E788 /* floppyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B99E301BBABE680062E788 /* Build configuration list for PBXNativeTarget "floppyUITests" */;
+			buildPhases = (
+				E2B99E1D1BBABE680062E788 /* Sources */,
+				E2B99E1E1BBABE680062E788 /* Frameworks */,
+				E2B99E1F1BBABE680062E788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2B99E231BBABE680062E788 /* PBXTargetDependency */,
+			);
+			name = floppyUITests;
+			productName = floppyUITests;
+			productReference = E2B99E211BBABE680062E788 /* floppyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B99DFA1BBABE680062E788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = cheetah;
+				TargetAttributes = {
+					E2B99E011BBABE680062E788 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = QCBK6P7M2R;
+					};
+					E2B99E151BBABE680062E788 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E2B99E011BBABE680062E788;
+					};
+					E2B99E201BBABE680062E788 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = E2B99E011BBABE680062E788;
+					};
+				};
+			};
+			buildConfigurationList = E2B99DFD1BBABE680062E788 /* Build configuration list for PBXProject "floppy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2B99DF91BBABE680062E788;
+			productRefGroup = E2B99E031BBABE680062E788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B99E011BBABE680062E788 /* floppy */,
+				E2B99E151BBABE680062E788 /* floppyTests */,
+				E2B99E201BBABE680062E788 /* floppyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2B99E001BBABE680062E788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B99E101BBABE680062E788 /* LaunchScreen.storyboard in Resources */,
+				E2B99E0D1BBABE680062E788 /* Assets.xcassets in Resources */,
+				E2B99E0B1BBABE680062E788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B99E141BBABE680062E788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B99E1F1BBABE680062E788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2B99DFE1BBABE680062E788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B99E081BBABE680062E788 /* GameViewController.swift in Sources */,
+				E2B99E061BBABE680062E788 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B99E121BBABE680062E788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B99E1B1BBABE680062E788 /* floppyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2B99E1D1BBABE680062E788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B99E261BBABE680062E788 /* floppyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2B99E181BBABE680062E788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B99E011BBABE680062E788 /* floppy */;
+			targetProxy = E2B99E171BBABE680062E788 /* PBXContainerItemProxy */;
+		};
+		E2B99E231BBABE680062E788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2B99E011BBABE680062E788 /* floppy */;
+			targetProxy = E2B99E221BBABE680062E788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2B99E091BBABE680062E788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B99E0A1BBABE680062E788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2B99E0E1BBABE680062E788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2B99E0F1BBABE680062E788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2B99E281BBABE680062E788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E2B99E291BBABE680062E788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2B99E2B1BBABE680062E788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = floppy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.floppy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		E2B99E2C1BBABE680062E788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = floppy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.floppy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		E2B99E2E1BBABE680062E788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = floppyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.floppyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/floppy.app/floppy";
+			};
+			name = Debug;
+		};
+		E2B99E2F1BBABE680062E788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = floppyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.floppyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/floppy.app/floppy";
+			};
+			name = Release;
+		};
+		E2B99E311BBABE680062E788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = floppyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.floppyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = floppy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E2B99E321BBABE680062E788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = floppyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cheetah.floppyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = floppy;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2B99DFD1BBABE680062E788 /* Build configuration list for PBXProject "floppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B99E281BBABE680062E788 /* Debug */,
+				E2B99E291BBABE680062E788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B99E2A1BBABE680062E788 /* Build configuration list for PBXNativeTarget "floppy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B99E2B1BBABE680062E788 /* Debug */,
+				E2B99E2C1BBABE680062E788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B99E2D1BBABE680062E788 /* Build configuration list for PBXNativeTarget "floppyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B99E2E1BBABE680062E788 /* Debug */,
+				E2B99E2F1BBABE680062E788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B99E301BBABE680062E788 /* Build configuration list for PBXNativeTarget "floppyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B99E311BBABE680062E788 /* Debug */,
+				E2B99E321BBABE680062E788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2B99DFA1BBABE680062E788 /* Project object */;
+}
